@@ -26,6 +26,10 @@ createApp(App)
       */
       (node) => {
         node.props.selectIcon = 'close'
+
+        // node.on('created', () => {
+        //   node.props.selectIcon = 'close'
+        // })
       }
     ]
   }))
