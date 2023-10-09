@@ -49,6 +49,9 @@ onMounted(() => {
 </template>
 
 <style>
+.formkit-inner {
+  position: relative;
+}
 .formkit-selector {
   width: 300px;
   height: 40px;
@@ -61,5 +64,10 @@ onMounted(() => {
   height: 20px;
   top: 0;
   right: 0;
+}
+.formkit-dropdown-wrapper {
+  position: absolute;
+  top: 0;
+  background-color: grey;
 }
 </style>
